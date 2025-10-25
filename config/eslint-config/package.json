@@ -8,25 +8,17 @@
     "./next-js": "./next.js",
     "./node": "./node.js"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.34.0",
-    "@next/eslint-plugin-next": "^15.5.0",
-    "eslint": "^9.34.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-turbo": "^2.5.0",
-    "globals": "^16.3.0",
-    "typescript": "^5.9.2",
-    "typescript-eslint": "^8.40.0",
-    "@repo/prettier": "workspace:*"
+  "peerDependencies": {
+    "eslint": "^9",
+    "@eslint/js": "^9",
+    "typescript-eslint": "^8",
+    "eslint-config-prettier": "^10",
+    "eslint-plugin-only-warn": "^1",
+    "eslint-plugin-turbo": "^2",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^5",
+    "eslint-plugin-simple-import-sort": "^12",
+    "globals": "^16"
   },
-  "prettier": "@repo/prettier",
-  "eslintConfig": {
-    "extends": [
-      "./base"
-    ]
-  }
+  "prettier": "@repo/prettier"
 }
