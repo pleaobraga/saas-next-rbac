@@ -17,5 +17,8 @@
   "prettier": "@repo/prettier",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@casl/ability": "^6.7.3"
+  }
 }
