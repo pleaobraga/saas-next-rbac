@@ -45,14 +45,5 @@ export const nextJsConfig = [
       // React scope no longer necessary with new JSX transform.
       'react/react-in-jsx-scope': 'off'
     }
-  },
-  {
-    plugins: {
-      'simple-import-sort': pluginSimpleImportSort
-    },
-    rules: {
-      ...pluginSimpleImportSort.configs.recommended.rules,
-      'simple-import-sort/exports': 'error'
-    }
   }
 ]
