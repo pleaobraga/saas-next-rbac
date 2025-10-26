@@ -8,5 +8,9 @@
     "source.sortImports": "never"
   },
   "eslint.format.enable": false,
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
 }
